@@ -1,0 +1,31 @@
+.NotFound {
+  padding: 100px 0px;
+  list-style-type: none;
+  background-color: var(--color-primary);
+  color: var(--color-light);
+  text-align: center;
+  margin: 20px auto 5px auto;
+  overflow: hidden;
+  border-radius: 5px;
+  box-shadow: 10px 10px 14px 1px #aaa;
+  width: var(--page-width);
+}
+
+.NotFound h2 {
+  font-size: 3.5em;
+  color: var(--color-secondary);
+}
+
+.NotFound p {
+  font-size: 2em;
+  color: lightgray;
+}
+
+.NotFound a {
+  color: var(--color-secondary);
+  text-decoration: none;
+}
+
+.NotFound a:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,66 @@
+.Login {
+    padding: 100px 0px;
+    list-style-type: none;
+    background-color: var(--color-primary);
+    color: var(--color-light);
+    text-align: center;
+    margin: 20px auto 5px auto;
+    overflow: hidden;
+    border-radius: 5px;
+    box-shadow: 10px 10px 14px 1px #aaa;
+    width: var(--page-width);
+}
+
+.Login b {
+    font-weight: bold;
+}
+
+.Login h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--color-secondary);
+    margin: 0 0 20px 0;
+}
+
+.Login input {
+    border-radius: 20px;
+    border: 2px solid white;
+    color: white;
+    font-size: 1rem;
+    padding: 10px 20px;
+    background: none;
+    transition: 0.6s all;
+    font-weight: bold;
+    margin: 10px 0;
+    outline: none;
+    text-align: center;
+}
+
+.Login button {
+    background-color: var(--color-secondary);
+    border-radius: 20px;
+    border: 2px solid var(--color-secondary);
+    color: var(--color-primary);
+    font-size: 1rem;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: 0.6s all;
+    font-weight: bold;
+    outline: none;
+    margin: 10px 0;
+}
+
+.Login button:hover {
+    background-color: transparent;
+    border-color: var(--color-secondary);
+    color: var(--color-secondary)
+}
+
+.Login-error {
+    color: var(--color-fav);
+    font-size: 1rem;
+    padding: 10px 20px;
+    background: none;
+    transition: 0.6s all;
+    font-weight: bold;
+}

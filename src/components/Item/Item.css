@@ -1,0 +1,99 @@
+.Item {
+    padding: 0px;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: var(--color-primary);
+    color: var(--color-light);
+    text-align: left;
+    margin: 20px 5px 5px 5px;
+    overflow: hidden;
+    border-radius: 5px;
+    box-shadow: 10px 10px 14px 1px #aaa;
+}
+
+.Item>img {
+    flex: 1;
+    object-fit: cover;
+    object-position: center;
+}
+
+.Item>div {
+    padding: 10px 20px;
+    position: relative;
+    flex: 4;
+}
+
+.Item b {
+    font-weight: bold;
+}
+
+.Item .close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+}
+
+.Item .close:hover {
+    color: red;
+}
+
+.Item .fav {
+    color: var(--color-fav);
+    cursor: pointer;
+}
+
+.Item h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--color-secondary);
+    margin: 0 0 20px 0;
+}
+
+.Item .buttons {
+    padding: 20px 0 10px 0;
+}
+
+.Item button:focus {
+    outline: none;
+}
+
+.Item button.add {
+    border-radius: 20px;
+    border: 2px solid white;
+    color: white;
+    font-size: 1rem;
+    padding: 10px 20px;
+    background: none;
+    cursor: pointer;
+    transition: 0.6s all;
+    font-weight: bold;
+}
+
+.Item button.add:hover {
+    background-color: var(--color-fav);
+    border-color: var(--color-fav);
+}
+
+.Item button.remove {
+    border-radius: 20px;
+    border: 2px solid transparent;
+    color: var(--color-fav);
+    font-size: 1rem;
+    padding: 10px 20px;
+    background: none;
+    cursor: pointer;
+    transition: 0.6s all;
+    font-weight: bold;
+}
+
+.Item button.remove:hover {
+    border-color: var(--color-fav);
+}
+
+.AttrGroup {
+    display: flex;
+    flex-direction: row;
+    margin: 0 -10px;
+}

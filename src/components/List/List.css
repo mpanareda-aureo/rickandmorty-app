@@ -1,0 +1,11 @@
+.List {
+    padding: 0;
+}
+
+.List-title {
+    font-size: 1.5rem;
+}
+
+.List-row {
+    display: flex;
+}

@@ -1,0 +1,47 @@
+:root {
+    /* FONTS */
+    --font-primary: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    /* COLORS */
+    --color-primary: #282c34;
+    --color-secondary: #61dafb;
+    --color-light: white;
+    --color-fav: #FE6847;
+    /* BREAKPOINTS */
+    --sm: 640px;
+    --md: 768px;
+    --lg: 1024px;
+    --xl: 1280px;
+    --xxl: 1536px;
+    /* PAGE */
+    --page-width: 100%;
+}
+
+@media (min-width: 650px) {
+    :root {
+        --page-width: var(--sm);
+    }
+}
+
+@media (min-width: 778px) {
+    :root {
+        --page-width: var(--md);
+    }
+}
+
+@media (min-width: 1034px) {
+    :root {
+        --page-width: var(--lg);
+    }
+}
+
+@media (min-width: 1290px) {
+    :root {
+        --page-width: var(--xl);
+    }
+}
+
+@media (min-width: 1546px) {
+    :root {
+        --page-width: var(--xxl);
+    }
+}

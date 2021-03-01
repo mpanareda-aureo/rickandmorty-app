@@ -1,0 +1,59 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: var(--color-primary);
+  font-size: calc(10px + 2vmin);
+  color: var(--color-light);
+}
+
+.App-header>div {
+  width: var(--page-width);
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 0;
+}
+
+.App-header h1 {
+  font-size: 30px;
+}
+
+.App-user {
+  text-align: right;
+}
+
+.App-user>div {
+  font-size: 1.4rem;
+  color: var(--color-secondary);
+}
+
+.App-link {
+  color: var(--color-secondary);
+}
+
+.App main {
+  width: var(--page-width);
+  margin: 0 auto;
+}
+
+.App-disconnect {
+  border: 0 solid transparent;
+  color: var(--color-fav);
+  font-size: 1rem;
+  padding: 10px 0;
+  background: none;
+  cursor: pointer;
+  transition: 0.6s all;
+}
+
+.App-disconnect:hover {
+  text-decoration: underline;
+}

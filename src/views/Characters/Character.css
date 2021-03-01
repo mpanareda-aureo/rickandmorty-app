@@ -1,0 +1,33 @@
+main>div {
+    margin: 30px 20px;
+}
+
+.Nav {
+    margin: 20px 10px;
+    border-radius: 20px;
+    border: 2px solid var(--color-secondary);
+    color: var(--color-secondary);
+    font-size: 1rem;
+    padding: 10px 20px;
+    background: none;
+    cursor: pointer;
+    transition: 0.6s all;
+    font-weight: bold;
+}
+
+.Nav:focus {
+    outline: none;
+}
+
+.Nav:hover {
+    background-color: var(--color-secondary);
+    border-color: var(--color-secondary);
+    color: white;
+}
+
+.Nav:disabled, .Nav[disabled] {
+    background-color: transparent;
+    border-color: lightgray;
+    color: lightgray;
+    cursor: default;
+}

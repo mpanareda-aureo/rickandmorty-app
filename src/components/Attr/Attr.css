@@ -1,0 +1,22 @@
+.Attr {
+    flex: 1;
+    padding: 10px;
+    background: #333333;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.Attr-name {
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: grey;
+}
+
+.Attr-value {
+    font-size: 1.3rem;
+}
+
+.Attr-icon {
+    position: absolute;
+    right: 0;
+}
